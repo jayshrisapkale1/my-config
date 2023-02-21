@@ -1,5 +1,16 @@
 # my-config file
-spring:
-cloud:
-config:
-server:
+spring.txdatasource.hikari.poolName=txDataSourcePool
+spring.txdatasource.hikari.jdbcUrl=jdbc:postgresql://postgresdb.qa.skaleup.tech:5432/b2bnpdb01
+spring.txdatasource.hikari.username=appcredit
+spring.txdatasource.hikari.password=gwagGtliI9TWAd6
+spring.txdatasource.hikari.driverClassName=org.postgresql.Driver
+spring.txdatasource.hikari.minimumIdle=2
+spring.txdatasource.hikari.maximumPoolSize=5
+spring.txdatasource.hikari.connectionTimeout=30000
+spring.txdatasource.hikari.idleTimeout=600000
+spring.txdatasource.hikari.maxLifetime=1800000
+spring.txdatasource.hikari.dataSourceProperties[cachePrepStmts]=true
+spring.txdatasource.hikari.dataSourceProperties[prepStmtCacheSize]=250
+spring.txdatasource.hikari.dataSourceProperties[prepStmtCacheSqlLimit]=2048
+spring.txdatasource.hikari.leakDetectionThreshold=60000
+
