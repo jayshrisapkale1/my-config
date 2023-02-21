@@ -1,1 +1,5 @@
 # my-config file
+spring:
+cloud:
+config:
+server:
