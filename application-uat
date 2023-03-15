@@ -1,1 +1,1 @@
-spring.application.name=cloudConfigServer-Dev 
+spring.application.name=cloudConfigServer-uat 
